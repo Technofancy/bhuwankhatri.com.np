@@ -11,3 +11,7 @@
     font: inherit;
     vertical-align: baseline;
   }
+
+  .iconStyle {
+    @apply items-center w-[30px] h-[30px] hover:cursor-pointer sm:w-[45px] sm:h-[45px] lg:w-[63px] lg:h-[63px];
+  }

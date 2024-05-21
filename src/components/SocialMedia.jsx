@@ -1,5 +1,10 @@
 // import React from 'react'
-import { LiaGithubSquare } from "react-icons/lia";
+import { LiaGithubSquare, LiaFacebookF, LiaYoutube   } from "react-icons/lia";
+import { CgMail } from "react-icons/cg";
+import { RiTwitterXLine } from "react-icons/ri";
+import { ImLinkedin2 } from "react-icons/im";
+
+
 
 
 const SocialMedia = () => {
@@ -12,10 +17,18 @@ const SocialMedia = () => {
 
     return (
         <>
-            <button onClick={handleClick} title="Technofancy" className="w-[63px] h-[63px] hover:cursor-pointer">
-                <LiaGithubSquare className="w-full h-full text-white"/>
-            </button>
-            <div className="flex justify-around">
+            <div className="grid gap-20 justify-end mt-[-567px] my-3">
+
+                    <LiaGithubSquare onClick={handleClick} title="Technofancy" className="w-[60px] h-[60px] hover:cursor-pointer text-white" />
+
+                <div className="flex flex-col gap-10">
+                    <CgMail className=" text-red-500" />
+                    <ImLinkedin2 className=" text-blue-700" />
+                    <RiTwitterXLine className=" text-black" />
+                    <LiaFacebookF className=" text-blue-700" />
+                    <LiaYoutube className=" text-red-500" />
+
+                </div>
 
             </div>
         </>
