@@ -31,7 +31,7 @@ const Home = () => {
 
                 {/* Profile picture */}
                 <div className="bg-slate-900 w-[300px] h-[450px] rounded-full mx-auto my-5 overflow-hidden">
-                    {/* <img src={profilePic} alt="Profile picture" className="block w-full h-full" /> */}
+                    <img src={profilePic} alt="Profile picture" className="block w-full h-full" />
                 </div>
             </div>
 
