@@ -17,8 +17,9 @@ function App() {
           <div className="faceViewSideBar sm:mr-[10vw] ml-3"></div>
         </div>
 
-        {/* Skills cards section */}
-        <div>
+        {/* Skill and project section */}
+        <div className="bg-slate-900
+        ">
           <SkillsAndProjects />
         </div>
 
