@@ -5,7 +5,7 @@ import { RiTwitterXLine } from "react-icons/ri";
 import { ImLinkedin2 } from "react-icons/im";
 
 
-
+// Component NOT IN USE
 
 const SocialMedia = () => {
 

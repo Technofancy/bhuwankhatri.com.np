@@ -14,9 +14,9 @@ const Home = () => {
 
     return (
         <>
-            <div className='relative rounded-lg mx-3'>
-
-                <div className="flex justify-between 2xl:justify-center 2xl:gap-20 2xl:items-center sm:items-start">
+            <div className='relative rounded mx-3'>
+                {/* Namebar */}
+                <div className="flex sm:items-start justify-between 2xl:justify-center 2xl:gap-20 2xl:items-center">
 
                     <h1 className="text-white font-bold text-left text-xs sm:text-xl md:text-2xl xl:text-4xl tracking-wide">
                         BHUWAN
@@ -29,12 +29,14 @@ const Home = () => {
 
                 </div>
 
+                {/* Profile picture */}
                 <div className="bg-slate-900 w-[300px] h-[450px] rounded-full mx-auto my-5 overflow-hidden">
-                    <img src={profilePic} alt="Profile picture" className="block w-full h-full" />
+                    {/* <img src={profilePic} alt="Profile picture" className="block w-full h-full" /> */}
                 </div>
             </div>
 
-            <div className="flex gap-10 justify-center">
+            {/* Social media icons */}
+            <div className="flex gap-10 mb-10 justify-center">
                 <IconLinks />
             </div>
 
