@@ -3,15 +3,17 @@ import SkillCard from "../components/SkillCard"
 
 const SkillsAndProjects = () => {
   return (
-    <>
-    <div className="mt-5">
-        <SkillCard />
-    </div>
+    <div>
 
-    <div className="mt-10">
+      <div className="mt-5">
+        <SkillCard />
+      </div>
+
+      <div className="mt-10">
         <ProjectCard />
+      </div>
+
     </div>
-    </>
   )
 }
 

@@ -1,21 +1,30 @@
-
 const SkillCard = () => {
+  const skills = [
+    {
+      title: 'MERN Stack',
+      institute: 'Mind Risers Consortium',
+    },
+    {
+      title: 'AWS CCP',
+      institute: 'Unlimited Technology'
+    }
+  ]
+
   return (
-    <div className="my-3">
-      <h2 className="flex justify-center text-white text-xl sm:text-2xl md:text-3xl">Skills</h2>
+    <div className="p-6">
+      <h2 className="text-center text-white text-2xl sm:text-3xl md:text-4xl mb-8">Skills</h2>
 
-      <div className="grid items-center justify-center">
-        <div className="flex justify-between w-[350px] h-[50px] bg-slate-700 mt-3 rounded-lg shadow-lg text-white">
-
-          <h3 className=" mx-1">MERN Stack</h3>
-
-          <p className="text-slate-950 text-xs self-end hover:text-green-500">@ Mind Risers Consortium</p>
-
-          <button className="text-xs hover:px-2 hover:bg-slate-900 p-1 bg-slate-800 mt-1 mr-1 rounded-md self-start">Related Project</button>
-
-        </div>
+      <div className="grid gap-8 grid-cols-1 lg:grid-cols-2 place-items-center">
+        {skills.map((skill, index) => (
+          <div key={index} className="flex flex-col w-full max-w-md bg-slate-700 rounded-lg shadow-lg p-6 text-white transform transition-transform hover:scale-105">
+            <h3 className="text-lg font-semibold mb-2">{skill.title}</h3>
+            <p className="text-slate-300 mb-4">@ {skill.institute}</p>
+            <button className="self-end px-4 py-2 bg-slate-800 hover:bg-slate-900 text-xs rounded-md transition-colors">
+              Related Project
+            </button>
+          </div>
+        ))}
       </div>
-
     </div>
   )
 }

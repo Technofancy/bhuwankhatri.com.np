@@ -1,23 +1,36 @@
-
 const ProjectCard = () => {
+    const projects = [
+        {
+            title: 'This Website',
+            date: "",
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi deleniti iure, distinctio nostrum debitis sequi voluptatem accusantium, voluptates voluptatum, temporibus in'
+        },
+        {
+            title: 'Practices',
+            date: "",
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi deleniti iure, distinctio nostrum debitis sequi voluptatem accusantium, voluptates voluptatum, temporibus in',
+        }
+    ]
+
     return (
-        <div>
-            <h2 className="flex justify-center text-white text-xl sm:text-2xl md:text-3xl">Projects</h2>
+        <div className="p-6">
+            <h2 className="text-center text-white text-2xl sm:text-3xl md:text-4xl mb-8">Projects</h2>
 
-            <div className="grid items-center justify-center">
+            <div className="grid gap-8 grid-cols-1 lg:grid-cols-2 place-items-center">
 
-                <div className="flex flex-col w-[350px] h-fit bg-slate-700 mt-3 rounded-lg shadow-lg text-white">
+                {projects.map((project, index) => (
+                    <div key={index} className="flex flex-col w-full max-w-md bg-slate-700 rounded-lg shadow-lg p-6 text-white transform transition-transform hover:scale-105">
+                        <h3 className="text-lg font-semibold mb-2">{project.title} {project.date && <span className="text-slate-400">({project.date})</span>}</h3>
+                        <p className="text-slate-300 mb-4">{project.description}</p>
+                        <button className="self-end px-4 py-2 bg-slate-800 hover:bg-slate-900 text-xs rounded-md transition-colors">
+                            Go To Project
+                        </button>
+                    </div>
+                ))}
 
-                    <h3 className=" mx-1">This Website</h3>
-
-                    <p className="text-slate-950 mx-2 text-xs">Date: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sed impedit voluptates saepe. Voluptas quaerat quibusdam facilis, dolores vel nam fugiat! </p>
-
-                    <button className="text-xs hover:px-2 hover:bg-slate-900 p-1 bg-slate-800 mt-1 mr-1 rounded-md self-end">GoTo Project</button>
-
-                </div>
             </div>
         </div>
     )
 }
 
-export default ProjectCard
+export default ProjectCard;

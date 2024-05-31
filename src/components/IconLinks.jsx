@@ -35,7 +35,12 @@ const IconLinks = () => {
             {
                 icons.map((icon, index) => {
                     return (
-                        <a key={index} href={icon.url} target="_blank" rel="noopener, noreferrer">
+                        <a key={index} 
+                        href={icon.url} 
+                        target="_blank" 
+                        rel="noopener, noreferrer"
+                        className="hover:bg-slate-900"
+                        >
                             {icon.title}
                         </a>
                     )
