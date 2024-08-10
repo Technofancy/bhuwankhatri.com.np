@@ -3,45 +3,50 @@ import { LiaFacebookF, LiaYoutube } from "react-icons/lia";
 import { CgMail } from "react-icons/cg";
 import { RiTwitterXLine } from "react-icons/ri";
 import { ImLinkedin2 } from "react-icons/im";
-
+import { FaGithubSquare } from "react-icons/fa";
 
 const IconLinks = () => {
 
     const icons = [
         {
-            title: <CgMail className="iconStyle text-red-500" />,
+            mediaIcon: <CgMail className="text-red-500" title="gmail"/>,
             url: "https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtsnSDLHHGRZDJlNWqSMZvgWdJvMWxCQDLNjgdqJBXkwSvsZBRrvkJhxMXCmvJKNHdhgGv"
         },
         {
-            title: <ImLinkedin2 className="iconStyle text-blue-700" />,
+            mediaIcon: <ImLinkedin2 className="text-blue-700" title="linkedin" />,
             url: "https://www.linkedin.com/in/bhuwan-khatri-012b87257/"
         },
         {
-            title: <RiTwitterXLine className="iconStyle text-black" />,
+            mediaIcon: <RiTwitterXLine className="text-black" title="X" />,
             url: "https://x.com/KhatriVhoo", color: "text-black"
         },
         {
-            title: <LiaFacebookF className="iconStyle text-blue-700" />,
+            mediaIcon:<FaGithubSquare className="text-black" title="github" />,
+            url: "https://github.com/Technofancy/",
+        },
+        {
+            mediaIcon: <LiaFacebookF className="text-blue-900" title="facebook" />,
             url: "https://www.facebook.com/profile.php?id=100006177108591"
         },
         {
-            title: <LiaYoutube className="iconStyle text-red-500" />,
+            mediaIcon: <LiaYoutube className="text-red-500" title="youtube "/>,
             url: "https://www.youtube.com/channel/UCW6D58Oo_lBwKRqHyuz3woQ"
         },
+        
     ];
 
     return (
-        <div className="iconStyle flex gap-10 justify-center">
+        <div className="flex justify-center gap-10 sm:gap-16 lg:gap-20 xl:gap-32 p-2">
             {
                 icons.map((icon, index) => {
                     return (
                         <a key={index} 
                         href={icon.url} 
-                        target="_blank" 
+                        target="_blank"
                         rel="noopener, noreferrer"
-                        className="hover:bg-slate-900"
+                        className="hover:bg-black rounded p-1 text-xl sm:text-2xl lg:3xl 3xl:text-5xl"
                         >
-                            {icon.title}
+                            {icon.mediaIcon}
                         </a>
                     )
                 })

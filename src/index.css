@@ -1,21 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-.iconStyle {
-  @apply items-center w-[30px] h-[30px] hover:cursor-pointer sm:w-[45px] sm:h-[45px] lg:w-[63px] lg:h-[63px];
-}
-
-.faceViewSideBar {
-  @apply h-[60vh] md:h-[70vh] lg:h-[100vh] xl:h-[80vh] w-[3px] bg-slate-700 my-[5vh] md:my-[7.5vh] lg:my-[11vh] xl:my-[7.5vh];
-}
