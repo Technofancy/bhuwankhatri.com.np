@@ -2,14 +2,14 @@
   "projects": [
     {
       "id": "project-1",
-      "title": "ई-कमर्स प्लेटफर्म",
-      "summary": "MERN स्ट्याक प्रयोग गरी बनाइएको, भुक्तानी गेटवे एकीकरण र एक प्रशासक ड्यासबोर्ड सहितको पूर्ण-विशेषतायुक्त ई-कमर्स प्लेटफर्म।",
+      // "title": "ई-कमर्स प्लेटफर्म",
+      // "summary": "MERN स्ट्याक प्रयोग गरी बनाइएको, भुक्तानी गेटवे एकीकरण र एक प्रशासक ड्यासबोर्ड सहितको पूर्ण-विशेषतायुक्त ई-कमर्स प्लेटफर्म।",
       "imageUrl": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
     },
     {
       "id": "project-2",
-      "title": "रियल-टाइम च्याट एप्लिकेसन",
-      "summary": "Socket.IO र Express प्रयोग गरी बनाइएको एक उत्तरदायी च्याट एप्लिकेसन, जसले तत्काल सन्देश र प्रयोगकर्ता उपस्थिति सूचकहरूलाई अनुमति दिन्छ।",
+      // "title": "रियल-टाइम च्याट एप्लिकेसन",
+      // "summary": "Socket.IO र Express प्रयोग गरी बनाइएको एक उत्तरदायी च्याट एप्लिकेसन, जसले तत्काल सन्देश र प्रयोगकर्ता उपस्थिति सूचकहरूलाई अनुमति दिन्छ।",
       "imageUrl": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     }
   ]

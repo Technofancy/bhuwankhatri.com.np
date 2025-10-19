@@ -2,7 +2,7 @@
   "poems": [
     {
       "id": "poem-1",
-      "title": "The Silent Stream",
+      "title": "The Silent Stream (AI)",
       "lines": [
         "The silent stream of thought does flow",
         "Through meadows of the mind, and so",
@@ -11,7 +11,7 @@
     },
     {
       "id": "poem-2",
-      "title": "Echoes of the Void",
+      "title": "Echoes of the Void (AI)",
       "lines": [
         "In the vast void, an echo starts",
         "A lonely beat of broken hearts",

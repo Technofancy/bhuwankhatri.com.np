@@ -2,14 +2,14 @@
   "projects": [
     {
       "id": "project-1",
-      "title": "E-commerce Platform",
-      "summary": "A full-featured e-commerce platform built with the MERN stack, featuring payment gateway integration and an admin dashboard.",
+      // "title": "E-commerce Platform",
+      // "summary": "A full-featured e-commerce platform built with the MERN stack, featuring payment gateway integration and an admin dashboard.",
       "imageUrl": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
     },
     {
       "id": "project-2",
-      "title": "Real-time Chat Application",
-      "summary": "A responsive chat application using Socket.IO and Express, allowing for instant messaging and user presence indicators.",
+      // "title": "Real-time Chat Application",
+      // "summary": "A responsive chat application using Socket.IO and Express, allowing for instant messaging and user presence indicators.",
       "imageUrl": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     }
   ]

@@ -2,7 +2,7 @@
   "blogs": [
     {
       "id": "blog-1",
-      "title": "The Art of Code Refactoring",
+      "title": "The Art of Code Refactoring (AI)",
       "summary": "A deep dive into the principles and practices of effective code refactoring for long-term project health."
     }
   ]
