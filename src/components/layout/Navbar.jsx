@@ -44,8 +44,10 @@ const Navbar = ({ mode, onThemeToggle }) => {
             <ThemeToggle mode={mode} onToggle={onThemeToggle} />
           </div>
 
-          {/* Mobile Menu Icon */}
-          <div className="md:hidden flex items-center">
+          {/* Mobile Menu Icon & Theme/Language Toggles */}
+          <div className="md:hidden flex items-center gap-2">
+            <ThemeToggle mode={mode} onToggle={onThemeToggle} />
+            <LanguageSwitcher />
             <button onClick={toggleMenu} className="text-text focus:outline-none p-2">
               <HiMenu size={28} />
             </button>
@@ -84,8 +86,7 @@ const Navbar = ({ mode, onThemeToggle }) => {
                   <NavLink to={'/technofancy'} onClick={toggleMenu} className={navLinkClass}>Technofancy</NavLink>
                 </div>
                 <div className="flex justify-center items-center gap-6 pb-8">
-                  <ThemeToggle mode={mode} onToggle={onThemeToggle} />
-                  <LanguageSwitcher />
+                  {/* The toggles are now in the main bar for mobile, so this can be removed or left for redundancy */}
                 </div>
               </div>
             </motion.div>

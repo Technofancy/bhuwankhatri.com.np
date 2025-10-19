@@ -49,14 +49,14 @@ const LanguageSwitcher = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="absolute right-0 mt-2 w-40 bg-secondary rounded-lg shadow-xl z-50 overflow-hidden"
+            className="absolute right-0 mt-2 w-40 bg-white/30 backdrop-blur-sm rounded-lg shadow-xl z-50 overflow-hidden"
           >
-            <ul>
+            <ul className="backdrop-blur-sm">
               {languages.map((lang) => (
                 <li key={lang.code}>
                   <button
                     onClick={() => handleLanguageChange(lang.code)}
-                    className="w-full text-left px-4 py-3 flex items-center justify-between text-text hover:bg-background transition-colors"
+                    className="w-full text-left px-4 py-3 flex items-center justify-between bg-black/30 text-black/70 text-xl hover:bg-background transition-colors"
                   >
                     <span>{lang.name}</span>
                     {i18n.language === lang.code && <HiCheck className="text-primary" />}
