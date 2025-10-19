@@ -16,8 +16,8 @@ const cardVariants = {
   }),
 };
 
-const HeroCard = ({ to, className, children, index }) => (
-  <motion.div custom={index} variants={cardVariants} initial="hidden" animate="visible" viewport={{ once: true }}>
+const HeroCard = ({ to, className, children, index, containerClassName }) => (
+  <motion.div custom={index} variants={cardVariants} initial="hidden" animate="visible" viewport={{ once: true }} className={containerClassName}>
     <Link to={to} className="block h-full group">
       <div className={`h-full p-6 sm:p-8 rounded-xl shadow-lg flex flex-col items-center justify-center text-center transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2 ${className}`}>
         {children}
@@ -48,6 +48,7 @@ const Hero = () => {
           to="/bhuwan"
           className="bg-primary text-primary"
           index={1}
+          containerClassName="order-first md:order-none"
         >
           <div className="mb-4 sm:mb-6">
             <h1 className="text-3xl sm:text-4xl font-bold">{t('bhuwan.name')}</h1>
