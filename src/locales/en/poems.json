@@ -1,0 +1,22 @@
+{
+  "poems": [
+    {
+      "id": "poem-1",
+      "title": "The Silent Stream",
+      "lines": [
+        "The silent stream of thought does flow",
+        "Through meadows of the mind, and so",
+        "A world of words begins to grow."
+      ]
+    },
+    {
+      "id": "poem-2",
+      "title": "Echoes of the Void",
+      "lines": [
+        "In the vast void, an echo starts",
+        "A lonely beat of broken hearts",
+        "A universe of missing parts."
+      ]
+    }
+  ]
+}

@@ -1,3 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 
+  ==========================================
+  THEME SETUP
+  ==========================================
+  - Base variables are defined in :root and .dark
+  - Persona themes override --color-primary and --color-accent
+*/
+
+/* 1. Base & Dark Mode Shared Variables */
+:root {
+  --color-background: 255 255 255; /* White */
+  --color-text: 15 23 42; /* Slate 900 */
+  --color-text-muted: 71 85 105; /* Slate 500 */
+  --color-secondary: 241 245 249; /* Slate 100 */
+}
+
+.dark {
+  --color-background: 2 6 23; /* Slate 950 */
+  --color-text: 241 245 249; /* Slate 100 */
+  --color-text-muted: 100 116 139; /* Slate 400 */
+  --color-secondary: 30 41 59; /* Slate 800 */
+}
+
+/* 2. Persona Theme Definitions */
+
+/* Default/Home Theme */
+.theme-home {
+  --color-primary: 37 99 235; /* Blue 600 */
+  --color-accent: 245 158 11; /* Amber 500 */
+}
+
+/* Bhuwan Theme */
+.theme-bhuwan {
+  --color-primary: 220 38 38; /* Red 600 */
+  --color-accent: 75 85 99; /* Gray 600 */
+}
+
+/* Mohanmitra Theme */
+.theme-mohanmitra {
+  --color-primary: 217 119 6; /* Amber 600 */
+  --color-accent: 99 102 241; /* Indigo 500 */
+}
+
+/* Technofancy Theme */
+.theme-technofancy {
+  --color-primary: 22 163 74; /* Green 600 */
+  --color-accent: 217 70 239; /* Fuchsia 500 */
+}
+
+/* 
+  ==========================================
+  GLOBAL STYLES
+  ==========================================
+*/
+body {
+  background-color: rgb(var(--color-background));
+  color: rgb(var(--color-text));
+  font-family: "Noto Sans", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.font-serif {
+  font-family: "Noto Serif", serif;
+}
+
+/* 
+  ==========================================
+  ANIMATIONS
+  ==========================================
+*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+.animate-slideInUp {
+  animation: slideInUp 0.8s ease-in-out;
+}

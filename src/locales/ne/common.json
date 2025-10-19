@@ -1,0 +1,65 @@
+{
+  "welcome": "मेरो पोर्टफोलियोमा स्वागत छ!",
+  "view_projects": "परियोजनाहरू हेर्नुहोस्",
+  "coming_soon": "छिट्टै आउँदैछ...",
+  "technofancy_title": "टेक्नोफ्यान्सी पृष्ठ",
+  "bhuwan_khatri": "भुवन खत्री",
+  "social_works": "सामाजिक कार्यहरू",
+  "bhuwan": {
+    "name": "भुवन खत्री",
+    "name_en": "Bhuwan Khatri",
+    "tagline": "फुल-स्ट्याक डेभलपर | टेक उत्साही | आजीवन सिकारु",
+    "alt_text": "भुवन खत्री",
+    "seo": {
+      "title": "भुवन खत्री - व्यावसायिक पोर्टफोलियो",
+      "description": "भुवन खत्री, एक फुल-स्ट्याक डेभलपर, टेक उत्साही, र आजीवन सिकारुको व्यावसायिक पोर्टफोलियो। मेरो काम हेर्नुहोस् र मसँग जोडिनुहोस्।"
+    },
+    "portfolio_title": "पोर्टफोलियो",
+    "connect_title": "मसँग जोडिनुहोस्",
+    "socialLinks": [
+      {
+        "icon": "FaGithub",
+        "href": "https://github.com/bhuwankhatri",
+        "label": "GitHub"
+      },
+      {
+        "icon": "FaLinkedin",
+        "href": "https://linkedin.com/in/bhuwankhatri",
+        "label": "LinkedIn"
+      },
+      {
+        "icon": "FaTwitter",
+        "href": "https://twitter.com/bhuwankhatri",
+        "label": "Twitter"
+      },
+      {
+        "icon": "FaEnvelope",
+        "href": "mailto:bhuwan.khatri@example.com",
+        "label": "Email"
+      },
+      { "icon": "FaFileAlt", "href": "/resume.pdf", "label": "Resume" }
+    ]
+  },
+  "mohanmitra": {
+    "name": "मोहनमित्र",
+    "description": "कविता र अन्य रचनाहरू",
+    "tagline": "कविता र अन्य रचनाहरू",
+    "seo": {
+      "title": "मोहनमित्र - कविता र रचनाहरू",
+      "description": "मोहनमित्रका कविता र साहित्यिक सिर्जनाहरू अन्वेषण गर्नुहोस्।"
+    }
+  },
+  "technofancy": {
+    "name": "टेक्नोफ्यान्सी",
+    "description": "सफ्ट टेक र टुल्स",
+    "tagline": "सफ्ट टेक र टुल्स",
+    "seo": {
+      "title": "टेक्नोफ्यान्सी - सफ्ट टेक र टुल्स",
+      "description": "टेक्नोफ्यान्सीसँग सफ्ट टेक, टुल्स, र विचारहरू अन्वेषण गर्दै। ब्लग पोस्टहरू पढ्नुहोस् र हालका कामहरू हेर्नुहोस्।"
+    },
+    "works_title": "हालका कामहरू",
+    "blog_title": "ब्लग पोस्टहरू",
+    "view_details": "विवरण हेर्नुहोस्",
+    "read_more": "थप पढ्नुहोस्"
+  }
+}

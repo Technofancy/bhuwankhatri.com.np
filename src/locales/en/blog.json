@@ -1,0 +1,9 @@
+{
+  "blogs": [
+    {
+      "id": "blog-1",
+      "title": "The Art of Code Refactoring",
+      "summary": "A deep dive into the principles and practices of effective code refactoring for long-term project health."
+    }
+  ]
+}

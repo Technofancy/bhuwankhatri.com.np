@@ -1,15 +1,15 @@
-import Navbar from "../components/home/Navbar";
-import Hero from "../components/home/Hero"
+import Hero from '../features/home/Hero';
+import SEO from '../components/common/SEO'; // Corrected Path
 
 const HomeLand = () => {
-
   return (
-    <>
-      <div className="flex flex-col">
-        <Navbar className="fixed"/>
-        <Hero />
-      </div>
-    </>
+    <div>
+      <SEO 
+        title="Bhuwan Khatri - Unified Portfolio" 
+        description="The unified portfolio of Bhuwan Khatri, showcasing the professional (Bhuwan), the poet (Mohanmitra), and the tech enthusiast (Technofancy)."
+      />
+      <Hero />
+    </div>
   );
 };
 

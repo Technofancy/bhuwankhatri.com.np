@@ -1,0 +1,63 @@
+{
+  "bhuwan": {
+    "name": "Bhuwan Khatri",
+    "name_en": "Bhuwan Khatri",
+    "tagline": "Full-Stack Developer | Tech Enthusiast | Lifelong Learner",
+    "alt_text": "Bhuwan Khatri",
+    "seo": {
+      "title": "Bhuwan Khatri - Professional Portfolio",
+      "description": "The professional portfolio of Bhuwan Khatri, a full-stack developer, tech enthusiast, and lifelong learner. View my work and connect with me."
+    },
+    "portfolio_title": "Portfolio",
+    "connect_title": "Connect with Me",
+    "socialLinks": [
+      {
+        "icon": "FaGithub",
+        "href": "https://github.com/bhuwankhatri",
+        "label": "GitHub"
+      },
+      {
+        "icon": "FaLinkedin",
+        "href": "https://linkedin.com/in/bhuwankhatri",
+        "label": "LinkedIn"
+      },
+      {
+        "icon": "FaTwitter",
+        "href": "https://twitter.com/bhuwankhatri",
+        "label": "Twitter"
+      },
+      {
+        "icon": "FaEnvelope",
+        "href": "mailto:bhuwan.khatri@example.com",
+        "label": "Email"
+      },
+      { "icon": "FaFileAlt", "href": "/resume.pdf", "label": "Resume" }
+    ]
+  },
+  "mohanmitra": {
+    "name": "Mohanmitra",
+    "description": "Poetry and other compositions",
+    "tagline": "Poetry and other compositions",
+    "seo": {
+      "title": "Mohanmitra - Poetry and Compositions",
+      "description": "Explore the poems and literary creations of Mohanmitra."
+    }
+  },
+  "technofancy": {
+    "name": "Technofancy",
+    "description": "Soft Tech & Tools",
+    "tagline": "Soft Tech & Tools",
+    "seo": {
+      "title": "Technofancy - Soft Tech & Tools",
+      "description": "Exploring soft tech, tools, and ideas with Technofancy. Read blog posts and check out recent works."
+    },
+    "works_title": "Recent Works",
+    "blog_title": "Blog Posts",
+    "view_details": "View Details",
+    "read_more": "Read More"
+  },
+  "back_to_poems": "Back to Poems",
+  "back_to_projects": "Back to Portfolio",
+  "back_to_works": "Back to Works",
+  "back_to_blog": "Back to Blog"
+}
