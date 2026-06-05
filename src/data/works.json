@@ -1,0 +1,64 @@
+{
+  "works": [
+    {
+      "id": "work-001",
+      "title": "Web Design Redesign - FinTech Platform",
+      "description": "Complete UI/UX redesign of a financial technology platform with modern design principles",
+      "content": "Redesigned a complex financial technology platform to improve user experience and modernize the interface.\n\n### Challenges\n- Complex financial workflows\n- Legacy system with dated UI\n- Need for data-heavy dashboard\n\n### Solutions\n- Simplified navigation with clear information hierarchy\n- Modern, clean aesthetic using contemporary color palette\n- Intuitive dashboard with customizable widgets\n- Responsive design for mobile and tablet\n- Dark mode support for extended usage\n\n### Results\n- 40% increase in user engagement\n- Reduced support tickets by 25%\n- Improved user satisfaction score from 6.5 to 8.9/10",
+      "technologies": ["Figma", "UI/UX Design", "Design Systems", "Prototyping"],
+      "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop",
+      "date": "2025-12-01",
+      "category": "design",
+      "featured": true,
+      "readingTime": 4
+    },
+    {
+      "id": "work-002",
+      "title": "Brand Identity - Tech Startup",
+      "description": "Full branding project including logo, color palette, and design system for a startup",
+      "content": "Created comprehensive brand identity for an innovative AI-powered SaaS startup.\n\n### Deliverables\n- Logo design (multiple variations)\n- Color palette with accessibility guidelines\n- Typography system\n- Design system with components\n- Brand guidelines document\n- Social media templates\n\n### Design Philosophy\n- Modern and tech-forward aesthetic\n- Accessible color contrasts\n- Scalable design system for growth\n- Consistent across all touchpoints\n\n### Impact\n- Strong brand recognition in market\n- Professional appearance boosted investor confidence\n- Design system accelerated product development",
+      "technologies": ["Adobe Creative Suite", "Figma", "Branding", "Design Systems"],
+      "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop",
+      "date": "2025-11-15",
+      "category": "branding",
+      "featured": true,
+      "readingTime": 5
+    },
+    {
+      "id": "work-003",
+      "title": "Mobile App UI Kit",
+      "description": "Comprehensive design system and component library for mobile applications",
+      "content": "Developed an extensive UI kit for mobile app development across iOS and Android.\n\n### Components Included\n- Navigation (tabs, drawers, bottom sheets)\n- Forms (inputs, selectors, toggles)\n- Buttons (primary, secondary, tertiary)\n- Cards and containers\n- Modals and dialogs\n- Feedback components (alerts, toasts)\n- Loading states\n\n### Features\n- Light and dark mode support\n- Accessibility guidelines for each component\n- Spacing and typography guidelines\n- Interaction guidelines\n- Code snippets for developers\n\n### Usage\n- Used by 50+ mobile apps\n- Reduced design-to-development time by 60%\n- Consistent user experience across products",
+      "technologies": ["Figma", "Design Systems", "Mobile Design", "Prototyping"],
+      "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop",
+      "date": "2025-10-20",
+      "category": "design",
+      "featured": false,
+      "readingTime": 4
+    },
+    {
+      "id": "work-004",
+      "title": "E-Learning Platform Design",
+      "description": "Educational platform design with focus on user engagement and accessibility",
+      "content": "Designed an engaging e-learning platform that makes online education accessible to everyone.\n\n### Key Features\n- Intuitive course navigation\n- Progress tracking visualizations\n- Interactive quiz interfaces\n- Discussion forums design\n- Video player with captions\n- Responsive design for all devices\n\n### Accessibility\n- WCAG 2.1 AA compliance\n- Screen reader optimization\n- Color blind friendly palette\n- Clear focus indicators\n- Proper semantic HTML structure\n\n### Learning Experience\n- Gamification elements (badges, progress bars)\n- Personalized learning paths\n- Mobile-first design for on-the-go learning\n- Offline content download\n\n### Metrics\n- 90% user satisfaction\n- 3x increase in course completion\n- 85% accessibility score",
+      "technologies": ["Figma", "UX Research", "Accessibility", "Interaction Design"],
+      "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop",
+      "date": "2025-10-05",
+      "category": "ux-design",
+      "featured": true,
+      "readingTime": 5
+    },
+    {
+      "id": "work-005",
+      "title": "Documentation Website",
+      "description": "Beautiful and functional documentation site for a developer tools company",
+      "content": "Created a comprehensive documentation website for a developer tools platform.\n\n### Features\n- Beautiful typography and spacing\n- Code syntax highlighting\n- Search functionality\n- Navigation hierarchy for large docs\n- Mobile responsive design\n- Dark/Light mode toggle\n- Version selection\n\n### Design Elements\n- Clean, minimal aesthetic\n- Clear visual hierarchy\n- Consistent component usage\n- Fast loading performance\n- SEO optimized\n\n### Developer Experience\n- Easy to read code samples\n- Copy-to-clipboard functionality\n- Live code examples\n- API reference sections\n- Quick start guides\n\n### Success Metrics\n- 50% of new users complete onboarding\n- 30 min average session time\n- 95% positive feedback",
+      "technologies": ["Figma", "Web Design", "UX/UI", "Responsive Design"],
+      "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop",
+      "date": "2025-09-15",
+      "category": "web-design",
+      "featured": false,
+      "readingTime": 4
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "blogs": [
+    {
+      "id": "blog-001",
+      "title": "Getting Started with React Hooks",
+      "summary": "A comprehensive guide to understanding and using React Hooks in modern development",
+      "content": "React Hooks have revolutionized the way we write React components. In this comprehensive guide, we'll explore:\n\n## Introduction to Hooks\nHooks are functions that let you hook into React features. They allow you to use state and other React features without writing class components.\n\n## Common Hooks\n\n### useState\nManages component state in functional components.\n\n### useEffect\nHandles side effects like API calls, subscriptions, and DOM manipulations.\n\n### useContext\nAccess context values without deeply nested consumers.\n\n## Custom Hooks\nCreate reusable logic by writing your own custom hooks that abstract away complex state and side effect logic.\n\n## Best Practices\n- Only call hooks at the top level\n- Only call hooks from React functions\n- Use the ESLint plugin to enforce these rules\n\nMastering hooks will significantly improve your React development skills and code quality.",
+      "author": "Technofancy",
+      "date": "2026-01-10",
+      "readingTime": 5,
+      "category": "react",
+      "tags": ["react", "hooks", "javascript", "frontend"],
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+    },
+    {
+      "id": "blog-002",
+      "title": "Web Performance Optimization Tips",
+      "summary": "Essential techniques to improve your website's loading speed and performance",
+      "content": "Website performance is crucial for user experience and SEO rankings. Here are essential optimization techniques:\n\n## Image Optimization\n- Use WebP format for modern browsers\n- Implement lazy loading for below-the-fold images\n- Use responsive images with srcset\n- Compress images without losing quality\n\n## Code Splitting\n- Split JavaScript bundles by route\n- Load only necessary code per page\n- Use dynamic imports for conditional loading\n\n## Caching Strategies\n- Implement browser caching with proper headers\n- Use service workers for offline support\n- Cache API responses intelligently\n\n## CSS Optimization\n- Minify and compress CSS files\n- Remove unused CSS with tools like PurgeCSS\n- Inline critical CSS\n- Use CSS Grid and Flexbox for layouts\n\n## Monitoring\n- Use Chrome DevTools for profiling\n- Monitor Core Web Vitals\n- Set up performance budgets\n\nOptimizing performance can increase conversion rates by up to 7% per second of improvement.",
+      "author": "Technofancy",
+      "date": "2025-12-20",
+      "readingTime": 7,
+      "category": "performance",
+      "tags": ["performance", "optimization", "webdev", "frontend"],
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-aae19106c1e3?w=500&h=300&fit=crop"
+    },
+    {
+      "id": "blog-003",
+      "title": "Understanding Node.js Event Loop",
+      "summary": "Deep dive into how Node.js handles asynchronous operations",
+      "content": "The Event Loop is the heart of Node.js asynchronous programming. Understanding it is crucial for writing efficient server-side code.\n\n## What is the Event Loop?\nThe Event Loop is a mechanism that allows Node.js to perform non-blocking I/O operations despite JavaScript being single-threaded.\n\n## Phases of Event Loop\n\n### 1. Timers\nExecutes callbacks scheduled by setTimeout() and setInterval().\n\n### 2. Pending Callbacks\nExecutes deferred I/O callbacks.\n\n### 3. Idle, Prepare\nInternal use only.\n\n### 4. Poll\nRetrieve new I/O events. Execute callbacks.\n\n### 5. Check\nExecutes setImmediate() callbacks.\n\n### 6. Close Callbacks\nExecute close callbacks.\n\n## Microtasks vs Macrotasks\n- Microtasks: Promises, process.nextTick()\n- Macrotasks: setTimeout, setInterval\n\nMicrotasks always run before the next macrotask, which is important for understanding callback execution order.\n\n## Best Practices\n- Avoid blocking the event loop with long-running operations\n- Use async/await for cleaner asynchronous code\n- Monitor event loop lag in production\n\nMastering the event loop will help you write high-performance Node.js applications.",
+      "author": "Technofancy",
+      "date": "2025-12-10",
+      "readingTime": 6,
+      "category": "nodejs",
+      "tags": ["nodejs", "javascript", "async", "backend"],
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+    },
+    {
+      "id": "blog-004",
+      "title": "CSS Grid vs Flexbox - When to Use Each",
+      "summary": "A practical comparison of CSS layout methods and their best use cases",
+      "content": "CSS Grid and Flexbox are powerful layout tools, but they serve different purposes. Let's explore when to use each.\n\n## Flexbox Overview\nFlexbox is a one-dimensional layout method for arranging items in rows or columns.\n\n### Best for:\n- Navigation bars\n- Card layouts in a single row/column\n- Centering content\n- Simple linear layouts\n\n### Advantages:\n- Simpler syntax for 1D layouts\n- Better browser support (IE 10+)\n- Excellent for alignment and spacing\n\n## CSS Grid Overview\nCSS Grid is a two-dimensional layout method for creating complex grid layouts.\n\n### Best for:\n- Page layouts\n- Complex multi-column designs\n- Responsive grid systems\n- Overlapping layouts\n\n### Advantages:\n- Perfect for 2D layouts\n- Great for responsive design\n- More control over item placement\n
+## Practical Examples\n
+### Use Flexbox for:\n```css
+.navbar { display: flex; justify-content: space-between; }
+```
+
+### Use Grid for:\n```css
+.layout { display: grid; grid-template-columns: 1fr 2fr 1fr; }
+```
+
+## Combining Both\nYou can combine Grid and Flexbox in the same layout. Use Grid for major page structure and Flexbox for component-level alignment.",
+      "author": "Technofancy",
+      "date": "2025-11-25",
+      "readingTime": 5,
+      "category": "css",
+      "tags": ["css", "layout", "grid", "flexbox", "frontend"],
+      "imageUrl": "https://images.unsplash.com/photo-1633356715640-24c08acad1a6?w=500&h=300&fit=crop"
+    },
+    {
+      "id": "blog-005",
+      "title": "REST API Best Practices",
+      "summary": "Guidelines for building scalable and maintainable REST APIs",
+      "content": "REST APIs are the backbone of modern web applications. Here are best practices for building great APIs.\n\n## API Design Principles\n\n### 1. Use Meaningful URLs\n- /api/users (good)\n- /api/getUsers (bad)\n- /api/posts/:id/comments (good nested resource)\n\n### 2. Use Correct HTTP Methods\n- GET: Retrieve resources\n- POST: Create resources\n- PUT: Update entire resources\n- PATCH: Partial updates\n- DELETE: Remove resources\n\n### 3. Status Codes\n- 200: OK\n- 201: Created\n- 400: Bad Request\n- 401: Unauthorized\n- 404: Not Found\n- 500: Internal Server Error\n\n## Authentication & Security\n- Use HTTPS/TLS for all endpoints\n- Implement JWT or OAuth 2.0\n- Rate limit API endpoints\n- Validate and sanitize inputs\n- Use CORS properly\n\n## Pagination & Filtering\nImplement pagination for large datasets:\n```json
+{
+  "data": [...],
+  "pagination": {
+    "page": 1,
+    "limit": 20,
+    "total": 1000
+  }
+}
+```
+\n## Versioning\n- Use API versioning in URLs: /api/v1/users\n- Maintain backward compatibility\n- Deprecate old versions gracefully\n\n## Documentation\n- Use tools like Swagger/OpenAPI\n- Document all endpoints\n- Provide usage examples\n- Keep documentation up-to-date\n\n## Error Handling\nReturn consistent error responses:\n```json
+{
+  "error": {
+    "message": "User not found",
+    "code": "USER_NOT_FOUND",
+    "details": {}
+  }
+}
+```
+\nFollowing these practices will result in better, more maintainable APIs.",
+      "author": "Technofancy",
+      "date": "2025-11-10",
+      "readingTime": 8,
+      "category": "api",
+      "tags": ["api", "rest", "backend", "nodejs", "best-practices"],
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+    }
+  ]
+}

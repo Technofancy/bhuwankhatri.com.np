@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": "project-001",
+      "title": "E-Commerce Platform",
+      "summary": "A modern, full-stack e-commerce solution with real-time inventory management",
+      "content": "Built a comprehensive e-commerce platform featuring:\n\n• Real-time inventory tracking with WebSocket updates\n• Secure payment gateway integration (Stripe, PayPal)\n• Advanced product filtering and search with Elasticsearch\n• User authentication and authorization with JWT\n• Admin dashboard with analytics and reporting\n• Responsive design optimized for all devices\n\nThis project demonstrates expertise in full-stack development, database optimization, and user experience design. Achieved 99.5% uptime with 10K+ daily active users.",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "Redux", "Docker"],
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-aae19106c1e3?w=500&h=300&fit=crop",
+      "liveUrl": "https://example-ecommerce.com",
+      "githubUrl": "https://github.com/bhuwankhatri/ecommerce",
+      "date": "2025-12-15",
+      "category": "web-development",
+      "featured": true,
+      "readingTime": 5
+    },
+    {
+      "id": "project-002",
+      "title": "Mobile App - Task Manager",
+      "summary": "iOS and Android task management app with cloud synchronization",
+      "content": "Developed a cross-platform mobile application that helps users manage tasks efficiently:\n\n• Cloud synchronization across devices with real-time updates\n• Offline-first architecture for seamless experience\n• Beautiful and intuitive UI following Material Design\n• Push notifications for task reminders\n• End-to-end data encryption and privacy\n• Collaborative task sharing with team members\n• Integration with Google Calendar and Slack\n\nOptimized for performance with 60 FPS animations and zero-jank scrolling. Achieved 4.8-star rating with 50K+ downloads.",
+      "technologies": ["React Native", "Firebase", "Redux", "iOS", "Android", "TypeScript"],
+      "imageUrl": "https://images.unsplash.com/photo-1512941691920-25bda6f9a5bb?w=500&h=300&fit=crop",
+      "liveUrl": "https://apps.apple.com/app/taskmanager",
+      "githubUrl": "https://github.com/bhuwankhatri/taskmanager",
+      "date": "2025-11-20",
+      "category": "mobile-development",
+      "featured": true,
+      "readingTime": 6
+    },
+    {
+      "id": "project-003",
+      "title": "Machine Learning Model - Image Recognition",
+      "summary": "Deep learning model for accurate image classification and object detection",
+      "content": "Created and deployed an advanced machine learning model for image recognition:\n\n• TensorFlow-based CNN architecture with custom layers\n• Trained on 100K+ images achieving 95% accuracy\n• Real-time object detection and classification\n• RESTful API endpoint for easy integration\n• Model optimization for edge devices using TensorFlow Lite\n• Comprehensive documentation and usage examples\n• Continuous improvement with active learning\n\nCurrently used in production for various client applications processing 1M+ images daily.",
+      "technologies": ["Python", "TensorFlow", "OpenCV", "Flask", "Docker", "AWS"],
+      "imageUrl": "https://images.unsplash.com/photo-1677442d019cecf8e5c5ecf2cdb76eaed86c8cfaa?w=500&h=300&fit=crop",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/bhuwankhatri/ml-image-recognition",
+      "date": "2025-10-10",
+      "category": "machine-learning",
+      "featured": false,
+      "readingTime": 7
+    },
+    {
+      "id": "project-004",
+      "title": "SaaS Dashboard - Analytics Platform",
+      "summary": "Enterprise-grade analytics and reporting dashboard for data visualization",
+      "content": "Engineered a powerful analytics platform for business intelligence:\n\n• Real-time data processing and visualization\n• Custom report generation with drag-and-drop interface\n• Advanced filtering and drill-down capabilities\n• Multi-tenant architecture with data isolation\n• Role-based access control (RBAC)\n• Performance optimization for large datasets (1B+ rows)\n• Export to multiple formats (PDF, Excel, CSV)\n• Integration with data warehouses and APIs\n\nServes 500+ enterprise clients with 99.9% uptime SLA and handles 10K+ concurrent users.",
+      "technologies": ["React", "D3.js", "PostgreSQL", "GraphQL", "AWS", "Kubernetes"],
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+      "liveUrl": "https://analytics.example.com",
+      "githubUrl": "https://github.com/bhuwankhatri/analytics-dashboard",
+      "date": "2025-09-05",
+      "category": "web-development",
+      "featured": true,
+      "readingTime": 6
+    },
+    {
+      "id": "project-005",
+      "title": "Open Source Library - React Components",
+      "summary": "Comprehensive library of reusable React components for developers",
+      "content": "Created and maintained an open-source React component library:\n\n• 50+ pre-built, customizable components\n• Full TypeScript support with type definitions\n• Comprehensive Storybook documentation\n• Extensive test coverage (95% code coverage)\n• Accessibility (a11y) compliant (WCAG 2.1 AA)\n• Performance optimized with code splitting\n• Active community with 2K+ GitHub stars\n• Semantic versioning and backward compatibility\n• NPM package with 10K+ weekly downloads\n\nCommunity contributions from 100+ developers worldwide with active maintenance and regular updates.",
+      "technologies": ["React", "TypeScript", "Storybook", "Jest", "Webpack", "Babel"],
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop",
+      "liveUrl": "https://components.example.com",
+      "githubUrl": "https://github.com/bhuwankhatri/react-components",
+      "date": "2025-08-20",
+      "category": "open-source",
+      "featured": false,
+      "readingTime": 5
+    }
+  ]
+}
