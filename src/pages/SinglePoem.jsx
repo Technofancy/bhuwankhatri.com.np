@@ -37,7 +37,6 @@ const SinglePoem = () => {
         url: window.location.href
       });
     } else {
-      // Fallback: copy link to clipboard
       navigator.clipboard.writeText(window.location.href);
       alert('Link copied to clipboard!');
     }
