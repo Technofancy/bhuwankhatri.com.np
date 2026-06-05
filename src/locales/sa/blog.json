@@ -1,0 +1,39 @@
+{
+  "blogs": [
+    {
+      "id": "blog-001",
+      "title": "React Hooks इति आरम्भः",
+      "summary": "आधुनिक-विकासे React Hooks इत्यस्य बोधनार्थम् व्यापकः प्रशिक्षणमार्गः",
+      "category": "react",
+      "readingTime": 5
+    },
+    {
+      "id": "blog-002",
+      "title": "जालसंजाल-कार्यक्षमता-अनुकूलन-सुझावाः",
+      "summary": "भवतः जालस्थानस्य भार-गमन-द्रुतता-एवं-कार्यक्षमता-उन्नयनार्थम् आवश्यक-प्रविधयः",
+      "category": "performance",
+      "readingTime": 7
+    },
+    {
+      "id": "blog-003",
+      "title": "Node.js इवेन्ट-चक्र-बोधनः",
+      "summary": "Node.js इति अतुल्यकाल-क्रियाविधेः संचालनं कथं करोति इत्यस्य गहन-अवतरणम्",
+      "category": "nodejs",
+      "readingTime": 6
+    },
+    {
+      "id": "blog-004",
+      "title": "CSS Grid तुलनम् Flexbox - कदा कुत्र उपयुक्तम्",
+      "category": "css",
+      "summary": "CSS-विन्यास-पद्धति-एवं-तेषाम् सर्वोत्तम-उपयोग-प्रकरणानाम् व्यावहारिकः तुलना",
+      "readingTime": 5
+    },
+    {
+      "id": "blog-005",
+      "title": "REST API सर्वोत्तम-अभ्यासाः",
+      "summary": "स्केलेबल-एवं-अनुरक्षणीय REST API निर्माणार्थम् दिशानिर्देशाः",
+      "category": "api",
+      "readingTime": 8
+    }
+  ]
+}

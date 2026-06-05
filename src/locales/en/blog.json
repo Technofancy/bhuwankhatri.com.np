@@ -1,9 +1,39 @@
 {
   "blogs": [
     {
-      "id": "blog-1",
-      "title": "The Art of Code Refactoring (AI)",
-      "summary": "A deep dive into the principles and practices of effective code refactoring for long-term project health."
+      "id": "blog-001",
+      "title": "Getting Started with React Hooks",
+      "summary": "A comprehensive guide to understanding and using React Hooks in modern development",
+      "category": "react",
+      "readingTime": 5
+    },
+    {
+      "id": "blog-002",
+      "title": "Web Performance Optimization Tips",
+      "summary": "Essential techniques to improve your website's loading speed and performance",
+      "category": "performance",
+      "readingTime": 7
+    },
+    {
+      "id": "blog-003",
+      "title": "Understanding Node.js Event Loop",
+      "summary": "Deep dive into how Node.js handles asynchronous operations",
+      "category": "nodejs",
+      "readingTime": 6
+    },
+    {
+      "id": "blog-004",
+      "title": "CSS Grid vs Flexbox - When to Use Each",
+      "summary": "A practical comparison of CSS layout methods and their best use cases",
+      "category": "css",
+      "readingTime": 5
+    },
+    {
+      "id": "blog-005",
+      "title": "REST API Best Practices",
+      "summary": "Guidelines for building scalable and maintainable REST APIs",
+      "category": "api",
+      "readingTime": 8
     }
   ]
 }

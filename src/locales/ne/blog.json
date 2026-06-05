@@ -1,0 +1,39 @@
+{
+  "blogs": [
+    {
+      "id": "blog-001",
+      "title": "React Hooks सँग शुरुआत गरिँदै",
+      "summary": "आधुनिक विकासमा React Hooks को बुझाइ र प्रयोगको विस्तृत गाइड",
+      "category": "react",
+      "readingTime": 5
+    },
+    {
+      "id": "blog-002",
+      "title": "वेब पारफरम्यान्स अप्टिमाइजेशन सुझावहरु",
+      "summary": "तपाईँको वेबसाइटको लोडिङ गति र कार्यक्षमता सुधार गर्न आवश्यक प्रविधिहरु",
+      "category": "performance",
+      "readingTime": 7
+    },
+    {
+      "id": "blog-003",
+      "title": "Node.js इभेन्ट लूप बुझिँदै",
+      "summary": "Node.js ले अनुकूल क्रियाकलापहरु कसरी प्रबन्ध गर्छ भन्नेमा गहिरो गोताखोरी",
+      "category": "nodejs",
+      "readingTime": 6
+    },
+    {
+      "id": "blog-004",
+      "title": "CSS Grid बनाम Flexbox - कहिले कुन प्रयोग गरिँदै",
+      "summary": "CSS लेआउट विधिहरु र तिनीहरूको सर्वोत्तम प्रयोग केसहरूको व्यावहारिक तुलना",
+      "category": "css",
+      "readingTime": 5
+    },
+    {
+      "id": "blog-005",
+      "title": "REST API सर्वोत्तम अभ्यासहरु",
+      "summary": "स्केलेबल र रक्षणयोग्य REST API निर्माणको लागि दिशानिर्देश",
+      "category": "api",
+      "readingTime": 8
+    }
+  ]
+}

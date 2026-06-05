@@ -1,16 +1,39 @@
 {
   "projects": [
     {
-      "id": "project-1",
-      "title": "",
-      "summary":"",
-      "imageUrl": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+      "id": "project-001",
+      "title": "वाणिज्य-प्ल्येटफर्मम्",
+      "summary": "वर्तमान-काल-इन्वेन्टरी-व्यवस्थापनसहितम् आधुनिकम्, सम्पूर्ण-स्टैक-वाणिज्य-समाधानम्",
+      "category": "web-development",
+      "featured": true
     },
     {
-      "id": "project-2",
-      "title": "",
-      "summary": "",
-      "imageUrl": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      "id": "project-002",
+      "title": "मोबाइल-अनुप्रयोगः - कार्य-व्यवस्थापकः",
+      "summary": "क्लाउड-तुल्यकरणसहितम् iOS तथा Android कार्य-व्यवस्थापन-अनुप्रयोगः",
+      "category": "mobile-development",
+      "featured": true
+    },
+    {
+      "id": "project-003",
+      "title": "यन्त्र-शिक्षा-प्रतिमानः - प्रतिमा-पहचानः",
+      "summary": "सूक्ष्म प्रतिमा-वर्गीकरण-एवं-वस्तु-पहचानार्थम् गहन-शिक्षा-प्रतिमानम्",
+      "category": "machine-learning",
+      "featured": false
+    },
+    {
+      "id": "project-004",
+      "title": "SaaS-पटलम्-विश्लेषण-प्ल्येटफर्मः",
+      "summary": "तथ्य-दृश्यीकरणार्थम् एन्टरप्राइज-श्रेणीय-विश्लेषण-एवं-प्रतिवेदन-पटलम्",
+      "category": "web-development",
+      "featured": true
+    },
+    {
+      "id": "project-005",
+      "title": "मुक्त-स्रोत-पुस्तकालयः - React-घटकाः",
+      "summary": "विकासकार्थम् पुनः-उपयोगयोग्य-React-घटकानाम् व्यापक-पुस्तकालयः",
+      "category": "open-source",
+      "featured": false
     }
   ]
 }

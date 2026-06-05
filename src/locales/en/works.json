@@ -1,9 +1,34 @@
 {
   "works": [
     {
-      "id": "work-1",
-      "title": "",
-      "description": ""
+      "id": "work-001",
+      "title": "Web Design Redesign - FinTech Platform",
+      "description": "Complete UI/UX redesign of a financial technology platform with modern design principles",
+      "category": "design"
+    },
+    {
+      "id": "work-002",
+      "title": "Brand Identity - Tech Startup",
+      "description": "Full branding project including logo, color palette, and design system for a startup",
+      "category": "branding"
+    },
+    {
+      "id": "work-003",
+      "title": "Mobile App UI Kit",
+      "description": "Comprehensive design system and component library for mobile applications",
+      "category": "design"
+    },
+    {
+      "id": "work-004",
+      "title": "E-Learning Platform Design",
+      "description": "Educational platform design with focus on user engagement and accessibility",
+      "category": "ux-design"
+    },
+    {
+      "id": "work-005",
+      "title": "Documentation Website",
+      "description": "Beautiful and functional documentation site for a developer tools company",
+      "category": "web-design"
     }
   ]
 }

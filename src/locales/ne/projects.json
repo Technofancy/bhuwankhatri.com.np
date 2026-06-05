@@ -1,16 +1,39 @@
 {
   "projects": [
     {
-      "id": "project-1",
-      "title": "",
-      "summary": "",
-      "imageUrl": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+      "id": "project-001",
+      "title": "ई-कमर्स प्ल्याटफर्म",
+      "summary": "वास्तविक समयको इन्भेन्टरी व्यवस्थापनको साथ आधुनिक, पूर्ण-स्ट्याक ई-कमर्स समाधान",
+      "category": "web-development",
+      "featured": true
     },
     {
-      "id": "project-2",
-      "title": "",
-      "summary": "",
-      "imageUrl": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      "id": "project-002",
+      "title": "मोबाइल एप - कार्य व्यवस्थापक",
+      "summary": "क्लाउड सिङ्क्रोनाइजेशन सहितको iOS र Android कार्य व्यवस्थापन एप्लिकेशन",
+      "category": "mobile-development",
+      "featured": true
+    },
+    {
+      "id": "project-003",
+      "title": "मेशिन लर्निङ मडेल - इमेज पहिचान",
+      "summary": "सटीक छवि वर्गीकरण र वस्तु पहिचानको लागि गहिरो शिक्षा मडेल",
+      "category": "machine-learning",
+      "featured": false
+    },
+    {
+      "id": "project-004",
+      "title": "SaaS ड्याशबोर्ड - विश्लेषण प्ल्याटफर्म",
+      "summary": "डेटा दृश्यकरणको लागि इन्टरप्राइज-ग्रेड विश्लेषण र रिपोर्टिङ ड्याशबोर्ड",
+      "category": "web-development",
+      "featured": true
+    },
+    {
+      "id": "project-005",
+      "title": "ओपन सोर्स लाइब्रेरी - React कम्पोनेन्ट",
+      "summary": "विकासकर्ताहरूको लागि पुनः प्रयोगयोग्य React कम्पोनेन्टको व्यापक पुस्तकालय",
+      "category": "open-source",
+      "featured": false
     }
   ]
 }
